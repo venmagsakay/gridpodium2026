@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formula 1 - World Championship</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+          <a href="#" class="logo"><span class="logo-highlight">G</span>RID <span class="logo-highlight">P</span>ODIUM</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+            ☰
+            </button>
+            <nav id="navMenu">
+                <ul>
+                    <li><a href="#welcome">Welcome to F1</a></li>
+                    <li><a href="#about">About F1</a></li>
+                    <li><a href="#winners">2026 Race Winners</a></li>
+                    <li><a href="#features">Fundamentals</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="welcome" class="hero">
+        <div class="container hero-content">
+            <h1>WELCOME TO GRID PODIUM</h1>
+            <p><p>Explore the world of Formula 1, track the 2026 Grand Prix winners round by round, and learn the engineering and aerodynamic fundamentals driving the sport.</p></p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Formula 1</h2>
+            <div class="about-content">
+                <p>Founded in 1950, Formula 1 represents the highest tier of international motorsport. 
+                The Grand Prix series takes place across world-renowned tracks in Europe, the Americas, 
+                Asia, Australia, and the Middle East.</p>
+                
+                <p>Each season, constructor teams build bespoke open-wheel race cars to compete for two 
+                annual World Championships: one for Drivers and one for Constructors. Teams combine 
+                cutting-edge aerodynamics, mechanical engineering, and driving talent to achieve maximum speed and efficiency.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="winners" class="section dark-bg">
+        <div class="container">
+            <h2 class="section-title">2026 Race Winners</h2>
+            <p class="section-subtitle">The Winners of each track in the 2026 Calendar of FIA Formula One World Championship</p>
+            
+            <div class="winners-grid">
+              
+              <div class="winner-card">
+                <div class="winner-img-container">
+                  <img src="ontrack/r1.png" alt="Round 1 Track" class="track-img">
+                </div>
+                <div class="winner-info">
+                  <div class="round-header">
+                    <h3><span class="round-highlight">Round 1</span> <img src="flags/r1flag.png" alt="Australia Flag" class="flag-img"></h3>
+                  </div>
+                  <h4 class="gp-title">Australian Grand Prix</h4>
+                  <p class="circuit-name">Melbourne Grand Prix Circuit</p>
+                  <div class="driver-details team-mercedes">
+                    <p class="winner-driver">George <strong>Russell</strong> <span class="driver-number">63</span></p>
+                    <p class="team-name">Mercedes-AMG PETRONAS Formula One Team</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="winner-card">
+                <div class="winner-img-container">
+                  <img src="ontrack/r2.png" alt="Round 2 Track" class="track-img">
+                </div>
+                <div class="winner-info">
+                  <div class="round-header">
+                    <h3><span class="round-highlight">Round 2</span> <img src="flags/r2flag.png" alt="China Flag" class="flag-img"></h3>
+                  </div>
+                  <h4 class="gp-title">Chinese Grand Prix</h4>
+                  <p class="circuit-name">Shanghai International Circuit</p>
+                  <div class="driver-details team-mercedes">
+                    <p class="winner-driver">Kimi <strong>Antonelli</strong> <span class="driver-number">12</span></p>
+                    <p class="team-name">Mercedes-AMG PETRONAS Formula One Team</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="winner-card">
+                <div class="winner-img-container">
+                  <img src="ontrack/r3.png" alt="Round 3 Track" class="track-img">
+                </div>
+                <div class="winner-info">
+                  <div class="round-header">
+                    <h3><span class="round-highlight">Round 3</span> <img src="flags/r3flag.png" alt="Japan Flag" class="flag-img"></h3>
+                  </div>
+                  <h4 class="gp-title">Japanese Grand Prix</h4>
+                  <p class="circuit-name">Suzuka Circuit</p>
+                  <div class="driver-details team-mercedes">
+                    <p class="winner-driver">Kimi <strong>Antonelli</strong> <span class="driver-number">12</span></p>
+                    <p class="team-name">Mercedes-AMG PETRONAS Formula One Team</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="winner-card">
+                <div class="winner-img-container">
+                  <img src="ontrack/r4.png" alt="Round 4 Track" class="track-img">
+                </div>
+                <div class="winner-info">
+                  <div class="round-header">
+                    <h3><span class="round-highlight">Round 4</span> <img src="flags/r4flag.png" alt="USA Flag" class="flag-img"></h3>
+                  </div>
+                  <h4 class="gp-title">Miami Grand Prix</h4>
+                  <p class="circuit-name">Miami International Autodrome</p>
+                  <div class="driver-details team-mercedes">
+                    <p class="winner-driver">Kimi <strong>Antonelli</strong> <span class="driver-number">12</span></p>
+                    <p class="team-name">Mercedes-AMG PETRONAS Formula One Team</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="winner-card">
+                <div class="winner-img-container">
+                  <img src="ontrack/r5.png" alt="Round 5 Track" class="track-img">
+                </div>
+                <div class="winner-info">
+                  <div class="round-header">
+                    <h3><span class="round-highlight">Round 5</span> <img src="flags/r5flag.png" alt="Canada Flag" class="flag-img"></h3>
+                  </div>
+                  <h4 class="gp-title">Canadian Grand Prix</h4>
+                  <p class="circuit-name">Circuit Gilles-Villeneuve</p>
+                  <div class="driver-details team-mercedes">
+                    <p class="winner-driver">Kimi <strong>Antonelli</strong> <span class="driver-number">12</span></p>
+                    <p class="team-name">Mercedes-AMG PETRONAS Formula One Team</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="winner-card">
+                <div class="winner-img-container">
+                  <img src="ontrack/r6.png" alt="Round 6 Track" class="track-img">
+                </div>
+                <div class="winner-info">
+                  <div class="round-header">
+                    <h3><span class="round-highlight">Round 6</span> <img src="flags/r6flag.png" alt="Monaco Flag" class="flag-img"></h3>
+                  </div>
+                  <h4 class="gp-title">Monaco Grand Prix</h4>
+                  <p class="circuit-name">Circuit de Monaco</p>
+                  <div class="driver-details team-mercedes">
+                    <p class="winner-driver">Kimi <strong>Antonelli</strong> <span class="driver-number">12</span></p>
+                    <p class="team-name">Mercedes-AMG PETRONAS Formula One Team</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="winner-card">
+                <div class="winner-img-container">
+                  <img src="ontrack/r7.png" alt="Round 7 Track" class="track-img">
+                </div>
+                <div class="winner-info">
+                  <div class="round-header">
+                    <h3><span class="round-highlight">Round 7</span> <img src="flags/r7flag.png" alt="Spain Flag" class="flag-img"></h3>
+                  </div>
+                  <h4 class="gp-title">Spanish Grand Prix</h4>
+                  <p class="circuit-name">Circuit de Barcelona-Catalunya</p>
+                  <div class="driver-details team-ferrari">
+                    <p class="winner-driver">Lewis <strong>Hamilton</strong> <span class="driver-number">44</span></p>
+                    <p class="team-name">Scuderia Ferrari</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="winner-card">
+                <div class="winner-img-container">
+                  <img src="ontrack/r8.png" alt="Round 8 Track" class="track-img">
+                </div>
+                <div class="winner-info">
+                  <div class="round-header">
+                    <h3><span class="round-highlight">Round 8</span> <img src="flags/r8flag.png" alt="Austria Flag" class="flag-img"></h3>
+                  </div>
+                  <h4 class="gp-title">Austrian Grand Prix</h4>
+                  <p class="circuit-name">Red Bull Ring</p>
+                  <div class="driver-details team-mercedes">
+                    <p class="winner-driver">George <strong>Russell</strong> <span class="driver-number">63</span></p>
+                    <p class="team-name">Mercedes-AMG PETRONAS Formula One Team</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="winner-card">
+                <div class="winner-img-container">
+                  <img src="ontrack/r9.png" alt="Round 9 Track" class="track-img">
+                </div>
+                <div class="winner-info">
+                  <div class="round-header">
+                    <h3><span class="round-highlight">Round 9</span> <img src="flags/r9flag.png" alt="Great Britain Flag" class="flag-img"></h3>
+                  </div>
+                  <h4 class="gp-title">British Grand Prix</h4>
+                  <p class="circuit-name">Silverstone Circuit</p>
+                  <div class="driver-details team-ferrari">
+                    <p class="winner-driver">Charles <strong>Leclerc</strong> <span class="driver-number">16</span></p>
+                    <p class="team-name">Scuderia Ferrari</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="winner-card">
+                <div class="winner-img-container">
+                  <img src="ontrack/r10.png" alt="Round 10 Track" class="track-img">
+                </div>
+                <div class="winner-info">
+                  <div class="round-header">
+                    <h3><span class="round-highlight">Round 10</span> <img src="flags/r10flag.png" alt="Belgium Flag" class="flag-img"></h3>
+                  </div>
+                  <h4 class="gp-title">Belgian Grand Prix</h4>
+                  <p class="circuit-name">Circuit de Spa-Francorchamps</p>
+                  <div class="driver-details team-mercedes">
+                    <p class="winner-driver">Kimi <strong>Antonelli</strong> <span class="driver-number">12</span></p>
+                    <p class="team-name">Mercedes-AMG PETRONAS Formula One Team</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="winner-card">
+                <div class="winner-img-container">
+                  <img src="ontrack/r11.png" alt="Round 11 Track" class="track-img">
+                </div>
+                <div class="winner-info">
+                  <div class="round-header">
+                    <h3><span class="round-highlight">Round 11</span> <img src="flags/r11flag.png" alt="Hungary Flag" class="flag-img"></h3>
+                  </div>
+                  <h4 class="gp-title">Hungarian Grand Prix</h4>
+                  <p class="circuit-name">Hungaroring</p>
+                  <div class="driver-details team-mclaren">
+                    <p class="winner-driver">Lando <strong>Norris</strong> <span class="driver-number">1</span></p>
+                    <p class="team-name">McLaren Formula 1 Team</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="winner-card">
+                <div class="winner-img-container">
+                  <img src="ontrack/r12.png" alt="Round 12 Track" class="track-img">
+                </div>
+                <div class="winner-info">
+                  <div class="round-header">
+                    <h3><span class="round-highlight">Round 12</span> <img src="flags/r12flag.png" alt="Netherlands Flag" class="flag-img"></h3>
+                  </div>
+                  <h4 class="gp-title">Dutch Grand Prix</h4>
+                  <p class="circuit-name">Circuit Zandvoort</p>
+                  <div class="driver-details team-mclaren">
+                    <p class="winner-driver">Lando <strong>Norris</strong> <span class="driver-number">1</span></p>
+                    <p class="team-name">McLaren Formula 1 Team</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="winner-card">
+                <div class="winner-img-container">
+                  <img src="ontrack/r13.png" alt="Round 13 Track" class="track-img">
+                </div>
+                <div class="winner-info">
+                  <div class="round-header">
+                    <h3><span class="round-highlight">Round 13</span> <img src="flags/r13flag.png" alt="Italy Flag" class="flag-img"></h3>
+                  </div>
+                  <h4 class="gp-title">Italian Grand Prix</h4>
+                  <p class="circuit-name">Monza Circuit</p>
+                  <div class="driver-details team-mercedes">
+                    <p class="winner-driver">Kimi <strong>Antonelli</strong> <span class="driver-number">12</span></p>
+                    <p class="team-name">Mercedes-AMG PETRONAS Formula One Team</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="winner-card">
+                <div class="winner-img-container">
+                  <img src="ontrack/r14.png" alt="Round 14 Track" class="track-img">
+                </div>
+                <div class="winner-info">
+                  <div class="round-header">
+                    <h3><span class="round-highlight">Round 14</span> <img src="flags/r7flag.png" alt="Spain Flag" class="flag-img"></h3>
+                  </div>
+                  <h4 class="gp-title">Spanish Grand Prix</h4>
+                  <p class="circuit-name">Madring Circuit</p>
+                  <div class="driver-details team-mercedes">
+                    <p class="winner-driver">Kimi <strong>Antonelli</strong> <span class="driver-number">12</span></p>
+                    <p class="team-name">Mercedes-AMG PETRONAS Formula One Team</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="winner-card">
+                <div class="winner-img-container">
+                  <img src="ontrack/r15.png" alt="Round 15 Track" class="track-img">
+                </div>
+                <div class="winner-info">
+                  <div class="round-header">
+                    <h3><span class="round-highlight">Round 15</span> <img src="flags/r15flag.png" alt="Azerbaijan Flag" class="flag-img"></h3>
+                  </div>
+                  <h4 class="gp-title">Azerbaijan Grand Prix</h4>
+                  <p class="circuit-name">Baku City Circuit</p>
+                  <div class="driver-details team-mercedes">
+                    <p class="winner-driver">George <strong>Russell</strong> <span class="driver-number">63</span></p>
+                    <p class="team-name">Mercedes-AMG PETRONAS Formula One Team</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="winner-card">
+                <div class="winner-img-container">
+                  <img src="ontrack/r16.png" alt="Round 16 Track" class="track-img">
+                </div>
+                <div class="winner-info">
+                  <div class="round-header">
+                    <h3><span class="round-highlight">Round 16</span> <img src="flags/r16flag.png" alt="Bahrain Flag" class="flag-img"></h3>
+                  </div>
+                  <h4 class="gp-title">Bahrain Grand Prix in Malaysia</h4>
+                  <p class="circuit-name">Sepang International Circuit</p>
+                  <div class="driver-details team-redbull">
+                    <p class="winner-driver">Max <strong>Verstappen</strong> <span class="driver-number">3</span></p>
+                    <p class="team-name">Oracle Red Bull Racing</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="winner-card">
+                <div class="winner-img-container">
+                  <img src="ontrack/r17.png" alt="Round 17 Track" class="track-img">
+                </div>
+                <div class="winner-info">
+                  <div class="round-header">
+                    <h3><span class="round-highlight">Round 17</span> <img src="flags/r17flag.png" alt="Singapore Flag" class="flag-img"></h3>
+                  </div>
+                  <h4 class="gp-title">Singapore Grand Prix</h4>
+                  <p class="circuit-name">Marina Bay Street Circuit</p>
+                  <div class="driver-details team-redbull">
+                    <p class="winner-driver">Max <strong>Verstappen</strong> <span class="driver-number">3</span></p>
+                    <p class="team-name">Oracle Red Bull Racing</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="winner-card">
+                <div class="winner-img-container">
+                  <img src="ontrack/r18.png" alt="Round 18 Track" class="track-img">
+                </div>
+                <div class="winner-info">
+                  <div class="round-header">
+                    <h3><span class="round-highlight">Round 18</span> <img src="flags/r4flag.png" alt="USA Flag" class="flag-img"></h3>
+                  </div>
+                  <h4 class="gp-title">United States Grand Prix</h4>
+                  <p class="circuit-name">Circuit of the Americas</p>
+                  <div class="driver-details team-mercedes">
+                    <p class="winner-driver">Kimi <strong>Antonelli</strong> <span class="driver-number">12</span></p>
+                    <p class="team-name">Mercedes-AMG PETRONAS Formula One Team</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="section dark-bg">
+        <div class="container">
+            <h2 class="section-title">F1 Fundamentals</h2>
+            <div class="grid feature-grid">
+
+                <div class="card feature-card feature-aero">
+                    <h3>Advanced Aerodynamics</h3>
+                    <p>F1 cars utilize complex front wings, rear wings, and ground-effect floors to maximize downforce and cornering speeds.</p>
+                </div>
+
+                <div class="card feature-card feature-hybrid">
+                    <h3>Hybrid Power Units</h3>
+                    <p>The 2026 Formula 1 hybrid regulations change the power unit to a roughly 50:50 power split between the internal combustion engine (ICE) and the electrical system.</p>
+                </div>
+
+                <div class="card feature-card feature-pit">
+                    <h3>Pit Stop Strategy</h3>
+                    <p>Teams change four tires in under 2 seconds during mandatory pit stops, turning race strategy into a high-stakes team effort.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; Ben Magsakay. Web Activity</p>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        document.querySelectorAll('#navMenu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
